@@ -187,6 +187,47 @@ body {
   color: #8693a4;
 }
 
+.gallery {
+  margin-bottom: 120px;
+}
+
+.gallery h2 {
+  margin-top: 0;
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00C6BD;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-container img {
+  width: 970px;
+  height: 690px;
+}
+
+.gallery-preview-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery-preview-item img{
+    width: 170px;
+    height: 150px;
+    background-color: rgba(253, 253, 255, 0.5);
+}
+
 .contacts {
   display: flex;
   flex-direction: row-reverse;
