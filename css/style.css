@@ -98,6 +98,11 @@ body {
   opacity: 0.3;
 }
 
+.theme-button-light.active:hover {
+  opacity: 1;
+  cursor: default;
+}
+
 .theme-button-light.active {
   background-image: url("../img/sun-light.svg");
 }
@@ -122,6 +127,11 @@ body {
 
 .theme-button-dark:active {
   opacity: 0.3;
+}
+
+.theme-button-dark.active:hover {
+  opacity: 1;
+  cursor: default; 
 }
 
 .theme-button-dark.active {
@@ -165,6 +175,11 @@ body {
   opacity: 0.3;
 }
 
+.font-button-sans-serif.active:hover {
+  opacity: 1;
+  cursor: default; 
+}
+
 .font-button-serif {
   display: block;
   width: 32px;
@@ -185,6 +200,11 @@ body {
 
 .font-button-serif:active {
   opacity: 0.3;
+}
+
+.font-button-serif.active:hover {
+  opacity: 1;
+  cursor: default;
 }
 
 .main-nav {
@@ -436,6 +456,11 @@ body {
   opacity: 0.3;
 }
 
+.card-view-button-grid.active:hover {
+  opacity: 1;
+  cursor: default;
+}
+
 .card-view-button-grid.active {
   background-image: url("../img/grid-light.svg");
 }
@@ -458,6 +483,11 @@ body {
 
 .card-view-button-list:active {
   opacity: 0.3;
+}
+
+.card-view-button-list.active:hover {
+  opacity: 1;
+  cursor: default;
 }
 
 .card-view-button-list.active {
@@ -627,6 +657,7 @@ body {
 
 .preview-list a.active-item::before {
   background-color: transparent;
+  cursor: default;
 }
 
 .preview-list img {
